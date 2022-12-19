@@ -34,10 +34,6 @@ struct AlbumDetailView: View {
                     Text("Release Date:")
                     Text(album.releaseDate)
                 }
-                HStack(alignment: .top) {
-                    Text("Is Explicit:")
-                    Text(album.collectionExplicitness)
-                }
             }
             .padding(EdgeInsets(top: 20, leading: 20, bottom: 5, trailing: 20))
            
